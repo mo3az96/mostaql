@@ -260,8 +260,8 @@ $(document).ready(function () {
     $("select.form-control").select2({
       minimumResultsForSearch: Infinity,
     });
+    $(".flatpicker").flatpickr();
   }
-  $(".flatpicker").flatpickr();
 
   $(".advanced-search-btn").click(function () {
     $(".advanced-input").slideToggle("300");
