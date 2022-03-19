@@ -428,20 +428,6 @@ html[dir="ltr"] .form-control {
   appearance: none;
 }
 
-.form-control.flatpicker {
-  background-image: url(../images/calender.png);
-  background-repeat: no-repeat;
-  background-size: 13px;
-}
-
-html[dir="rtl"] .form-control.flatpicker {
-  background-position: left 23px top 50%;
-}
-
-html[dir="ltr"] .form-control.flatpicker {
-  background-position: right 23px top 50%;
-}
-
 select {
   background-image: url(../images/arrow.png);
   background-repeat: no-repeat;
@@ -722,6 +708,30 @@ html[dir="ltr"] .select2-container .select2-selection--single .select2-selection
 .radio input:checked ~ .mark::after {
   visibility: visible;
   opacity: 1;
+}
+
+.date-cont {
+  position: relative;
+}
+
+.date-cont::after {
+  position: absolute;
+  top: 3px;
+  bottom: 3px;
+  inset-inline-end: 3px;
+  border-radius: 24px;
+  padding: 0 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #fff;
+  content: "\f073";
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  pointer-events: none;
 }
 
 .nav-list {
