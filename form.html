@@ -659,7 +659,14 @@
             </ul>
           </div>
 
-          <button class="form-submit">احجز الأن</button>
+          <button
+            type="button"
+            class="form-submit"
+            data-toggle="modal"
+            data-target="#responseModal"
+          >
+            احجز الأن
+          </button>
         </form>
       </div>
     </section>
@@ -781,6 +788,18 @@
     </footer>
     <!-- End Footer -->
 
+    <!-- Modal -->
+    <div class="modal fade" id="responseModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-sm modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-body">
+            <!-- <i class="fas fa-times-circle modal-status" style="color: #f00;"></i> -->
+            <i class="fas fa-check-circle modal-status" style="color: #0f0;"></i>
+            <button class="form-submit" data-dismiss="modal">استمرار</button>
+          </div>
+        </div>
+      </div>
+    </div>
     <script src="js/jquery.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/select2.min.js"></script>
