@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no"
+    />
+    <title>Mustaqbal Institute</title>
+    <link rel="shortcut icon" type="img/png" href="images/fav.png" />
+    <link rel="stylesheet" href="css/bootstrap-rtl.min.css" />
+    <link rel="stylesheet" href="css/swiper.min.css" />
+    <link rel="stylesheet" href="css/fontawesome.min.css" />
+    <link rel="stylesheet" href="css/fancybox.css" />
+    <link rel="stylesheet" href="css/select2.min.css" />
+    <link rel="stylesheet" href="css/flatpicker.css" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+
+  <body class="overflow">
+    <!-- Start preloader -->
+    <div class="pre-loader">
+      <div class="content">
+        <img src="images/logo.png" alt="logo" />
+        <div class="progress-bar">
+          <span class="bar"><span class="progress"></span></span>
+        </div>
+      </div>
+    </div>
+    <!-- End preloader -->
+    <!-- Start Header -->
+    <header>
+      <div class="top-bar">
+        <div class="container">
+          <div class="top-bar-flex">
+            <div class="header-contacts">
+              <a href="tel:00971555186060">
+                <i class="fas fa-phone"></i>
+                00971-555-18-60-60
+              </a>
+              <span class="separator">|</span>
+              <a href="mailto:info@miq.ae">
+                <i class="fas fa-envelope"></i>
+                info@miq.ae
+              </a>
+            </div>
+            <div class="header-dropdowns">
+              <div class="header-dropdown">
+                <div class="dropdown-head">
+                  <i class="fab fa-accessible-icon"></i>
+                  ذوي الاحتياجات الخاص
+                </div>
+                <div class="dropdown-list">
+                  <a href="#!">ذوي الاحتياجات الخاص 1</a>
+                  <a href="#!">ذوي الاحتياجات الخاص 2</a>
+                  <a href="#!">ذوي الاحتياجات الخاص 3</a>
+                </div>
+              </div>
+              <span class="separator">|</span>
+              <div class="header-dropdown">
+                <div class="dropdown-head">
+                  <i class="fas fa-user"></i>
+                  حسابي
+                </div>
+                <div class="dropdown-list">
+                  <a href="#!">تسجيل الدخول</a>
+                  <a href="#!">تسجيل جديد</a>
+                </div>
+              </div>
+              <span class="separator">|</span>
+              <div class="header-dropdown">
+                <div class="dropdown-head">
+                  <img src="images/ar.png" />
+                  اللغة العربية
+                </div>
+                <div class="dropdown-list">
+                  <a href="index.html">اللغة العربية</a>
+                  <a href="index-en.html">اللغة الإنجليزية</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header">
+        <div class="container">
+          <div class="logos">
+            <a href="#!" class="logo">
+              <img src="images/logo.png" class="img-fluid" />
+            </a>
+            <a href="#!" class="logo2">
+              <img src="images/logo2.png" class="img-fluid" />
+            </a>
+            <a href="#!" class="logo3">
+              <img src="images/logo3.png" class="img-fluid" />
+            </a>
+          </div>
+        </div>
+      </div>
+      <nav>
+        <div class="container">
+          <div class="header-nav">
+            <a role="button" class="menu-btn">
+              <i class="fas fa-bars"></i>
+              القائمة الرئيسية
+            </a>
+            <div class="overlay"></div>
+            <ul class="nav-list list-unstyled">
+              <li>
+                <a href="#!">عن المعهد</a>
+              </li>
+              <li>
+                <a href="#!">التدريب والتأهيل</a>
+              </li>
+              <li>
+                <a href="#!">الاحداث والفعاليات</a>
+              </li>
+              <li>
+                <a href="#!">الخدمات الاستشارية</a>
+              </li>
+              <li>
+                <a href="#!">الخدمات التكنولوجية</a>
+              </li>
+              <li>
+                <a href="#!">خدمات رواد الاعمال</a>
+              </li>
+              <li>
+                <a href="#!">انضم إلينا</a>
+              </li>
+
+              <li class="has-sub xs-link">
+                <a role="button"> ذوي الاحتياجات الخاص </a>
+                <div class="sub-list">
+                  <a href="#!">ذوي الاحتياجات الخاص 1</a>
+                  <a href="#!">ذوي الاحتياجات الخاص 2</a>
+                  <a href="#!">ذوي الاحتياجات الخاص 3</a>
+                </div>
+              </li>
+              <li class="has-sub xs-link">
+                <a role="button"> حسابي </a>
+                <div class="sub-list">
+                  <a href="#!">تسجيل الدخول</a>
+                  <a href="#!">تسجيل جديد</a>
+                </div>
+              </li>
+              <li class="has-sub xs-link">
+                <a role="button"> اللغة العربية </a>
+                <div class="sub-list">
+                  <a href="index.html">اللغة العربية</a>
+                  <a href="index-en.html">اللغة الإنجليزية</a>
+                </div>
+              </li>
+            </ul>
+            <!-- <ul class="nav-list list-unstyled">
+              <li>
+                <a href="#!">الرئيسية</a>
+              </li>
+              <li>
+                <a href="#!">من نحن</a>
+              </li>
+              <li>
+                <a href="#!">عن المعهد</a>
+              </li>
+              <li>
+                <a href="#!">الخدمات</a>
+              </li>
+              <li>
+                <a href="#!">الكورسات</a>
+              </li>
+              <li>
+                <a href="#!">المركز الإعلامي</a>
+              </li>
+              <li>
+                <a href="#!">الأخبار</a>
+              </li>
+              <li>
+                <a href="#!">اتصل بنا</a>
+              </li>
+
+              <li class="has-sub xs-link">
+                <a role="button"> ذوي الاحتياجات الخاص </a>
+                <div class="sub-list">
+                  <a href="#!">ذوي الاحتياجات الخاص 1</a>
+                  <a href="#!">ذوي الاحتياجات الخاص 2</a>
+                  <a href="#!">ذوي الاحتياجات الخاص 3</a>
+                </div>
+              </li>
+              <li class="has-sub xs-link">
+                <a role="button"> حسابي </a>
+                <div class="sub-list">
+                  <a href="#!">تسجيل الدخول</a>
+                  <a href="#!">تسجيل جديد</a>
+                </div>
+              </li>
+              <li class="has-sub xs-link">
+                <a role="button"> اللغة العربية </a>
+                <div class="sub-list">
+                  <a href="#!">اللغة العربية</a>
+                  <a href="#!">اللغة الإنجليزية</a>
+                </div>
+              </li>
+            </ul> -->
+            <div class="nav-tools">
+              <a role="button" class="search-btn">
+                <i class="fas fa-search"></i>
+              </a>
+              <a href="#!" class="reg-btn"> التسجيل معنا </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- End Header -->
+
+    <!-- Start Search -->
+    <div class="search-form">
+      <span class="close-btn">
+        <i class="fas fa-times"></i>
+      </span>
+      <div class="search-cont">
+        <input type="text" class="search-input" placeholder="البحث ..." />
+        <button class="search-button">
+          <i class="fas fa-search"></i>
+        </button>
+      </div>
+    </div>
+    <!-- End Search -->
+
+    <!-- Start register form -->
+    <section class="reg-section">
+      <div class="container">
+        <div class="form-info">
+          ص.ب 90810 دبـــي الامــارات
+          <br />
+          رخصه رقم : 668823 - دبي
+        </div>
+        <form class="reg-form">
+          <div class="from-block">
+            <h3 class="section-title">إستمارة تسجيل</h3>
+            <div class="user-img-flex">
+              <label>
+                <input type="file" accept="image/*" />
+                <div class="user-img">
+                  <span class="fas fa-user"></span>
+                </div>
+                <i class="fas fa-camera"></i>
+              </label>
+            </div>
+            <h4 class="block-title">بيانات التسجيل</h4>
+            <div class="form-group required">
+              <label> البرامج</label>
+              <select class="form-control">
+                <option>اختر البرنامج المراد حجزة</option>
+                <option>البرنامج</option>
+                <option>البرنامج</option>
+                <option>البرنامج</option>
+                <option>البرنامج</option>
+                <option>البرنامج</option>
+                <option>البرنامج</option>
+                <option>البرنامج</option>
+              </select>
+            </div>
+            <div class="inputs-line-two">
+              <div class="form-group required">
+                <label> الاسم بالانجليزية </label>
+                <input type="text" class="form-control" />
+              </div>
+              <div class="form-group required">
+                <label> الاسم بالعربية </label>
+                <input type="text" class="form-control" />
+              </div>
+            </div>
+            <div class="inputs-line-three">
+              <div class="form-group required">
+                <label> الإيميل الإلكتروني </label>
+                <input type="email" class="form-control" />
+              </div>
+              <div class="form-group required">
+                <label> كلمة السر </label>
+                <input type="password" class="form-control" />
+              </div>
+              <div class="form-group required hasError">
+                <label>
+                  اعادة كلمة السر
+                  <span class="error">
+                    <i class="fas fa-info-circle"></i>
+                    كلمة السر ليست متطابقة
+                  </span>
+                </label>
+                <input type="text" class="form-control" />
+              </div>
+            </div>
+            <div class="inputs-line-two">
+              <div class="form-group">
+                <label> وسائل التواصل الاجتامعي </label>
+                <select class="form-control">
+                  <option>اضف احدى وسائل التواصل الخاصة بك</option>
+                  <option>وسائل</option>
+                  <option>وسائل</option>
+                  <option>وسائل</option>
+                  <option>وسائل</option>
+                  <option>وسائل</option>
+                  <option>وسائل</option>
+                  <option>وسائل</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" />
+              </div>
+            </div>
+            <button class="addmore">
+              أضف وسيلة أخرى
+              <i class="fas fa-plus-circle"></i>
+            </button>
+            <hr style="background-color: #bdbdbd" />
+            <h4 class="block-title">البيانات الشخصية</h4>
+            <div class="inputs-line-three">
+              <div class="form-group required">
+                <label> تاريخ الميلاد </label>
+                <input
+                  type="date"
+                  class="form-control flatpicker"
+                  placeholder="DD / MM / YYY"
+                />
+              </div>
+              <div class="form-group required">
+                <label> دولة الميلاد </label>
+                <select class="form-control">
+                  <option>اختر الدولة</option>
+                  <option>الدولة</option>
+                  <option>الدولة</option>
+                  <option>الدولة</option>
+                  <option>الدولة</option>
+                  <option>الدولة</option>
+                  <option>الدولة</option>
+                  <option>الدولة</option>
+                </select>
+              </div>
+              <div class="form-group required">
+                <label> الجنسية </label>
+                <select class="form-control">
+                  <option></option>
+                  <option>الجنسية</option>
+                  <option>الجنسية</option>
+                  <option>الجنسية</option>
+                  <option>الجنسية</option>
+                  <option>الجنسية</option>
+                  <option>الجنسية</option>
+                  <option>الجنسية</option>
+                </select>
+              </div>
+              <div class="form-group required">
+                <label> الحالة الإجتماعية </label>
+                <select class="form-control">
+                  <option></option>
+                  <option>الحالة</option>
+                  <option>الحالة</option>
+                  <option>الحالة</option>
+                  <option>الحالة</option>
+                  <option>الحالة</option>
+                  <option>الحالة</option>
+                  <option>الحالة</option>
+                </select>
+              </div>
+              <div class="form-group required">
+                <label> النوع </label>
+                <select class="form-control">
+                  <option></option>
+                  <option>النوع</option>
+                  <option>النوع</option>
+                  <option>النوع</option>
+                  <option>النوع</option>
+                  <option>النوع</option>
+                  <option>النوع</option>
+                  <option>النوع</option>
+                </select>
+              </div>
+              <div class="form-group required">
+                <label> الديانة </label>
+                <select class="form-control">
+                  <option></option>
+                  <option>الديانة</option>
+                  <option>الديانة</option>
+                  <option>الديانة</option>
+                  <option>الديانة</option>
+                  <option>الديانة</option>
+                  <option>الديانة</option>
+                  <option>الديانة</option>
+                </select>
+              </div>
+              <div class="form-group required">
+                <label> رقم التليفون </label>
+                <input type="tel" class="form-control" />
+              </div>
+              <div class="form-group required">
+                <label> رقم الجوال </label>
+                <input type="tel" class="form-control" />
+              </div>
+            </div>
+            <hr style="background-color: #bdbdbd" />
+            <div class="inputs-line-three">
+              <div class="form-group required">
+                <label> المؤهل </label>
+                <select class="form-control">
+                  <option>اختر المؤهل</option>
+                  <option>المؤهل</option>
+                  <option>المؤهل</option>
+                  <option>المؤهل</option>
+                  <option>المؤهل</option>
+                  <option>المؤهل</option>
+                  <option>المؤهل</option>
+                  <option>المؤهل</option>
+                </select>
+              </div>
+              <div class="form-group required">
+                <label> تاريخ المؤهل </label>
+                <input
+                  type="date"
+                  class="form-control flatpicker"
+                  placeholder="DD / MM / YYY"
+                />
+              </div>
+              <div class="form-group required">
+                <label> التخصص </label>
+                <input type="text" class="form-control" />
+              </div>
+            </div>
+            <hr style="background-color: #bdbdbd" />
+            <h4 class="block-title">بيانات الوظيفة</h4>
+            <div class="inputs-line-two">
+              <div class="form-group required">
+                <label> إسم الوظيفة </label>
+                <input type="text" class="form-control" />
+              </div>
+              <div class="form-group required">
+                <label>إسم مكان العمل</label>
+                <input type="text" class="form-control" />
+              </div>
+            </div>
+            <hr style="background-color: #bdbdbd" />
+            <h4 class="block-title">العنوان</h4>
+            <div class="inputs-line-three">
+              <div class="form-group required">
+                <label> العنوان - الدولة </label>
+                <select class="form-control">
+                  <option>اختر الدولة</option>
+                  <option>الدولة</option>
+                  <option>الدولة</option>
+                  <option>الدولة</option>
+                  <option>الدولة</option>
+                  <option>الدولة</option>
+                  <option>الدولة</option>
+                  <option>الدولة</option>
+                </select>
+              </div>
+              <div class="form-group required">
+                <label> العنوان - المدينة </label>
+                <select class="form-control">
+                  <option>اختر المدينة</option>
+                  <option>المدينة</option>
+                  <option>المدينة</option>
+                  <option>المدينة</option>
+                  <option>المدينة</option>
+                  <option>المدينة</option>
+                  <option>المدينة</option>
+                  <option>المدينة</option>
+                </select>
+              </div>
+              <div class="form-group required">
+                <label> الشارع / الحي </label>
+                <input type="text" class="form-control" />
+              </div>
+            </div>
+            <hr style="background-color: #bdbdbd" />
+            <h4 class="block-title">بيانات الهوية</h4>
+            <div class="inputs-line-three">
+              <div class="form-group required">
+                <label> رقم الهوية </label>
+                <input type="text" class="form-control" />
+              </div>
+              <div class="form-group required">
+                <label> بلد إصدار الهوية </label>
+                <select class="form-control">
+                  <option>اختر البلد</option>
+                  <option>البلد</option>
+                  <option>البلد</option>
+                  <option>البلد</option>
+                  <option>البلد</option>
+                  <option>البلد</option>
+                  <option>البلد</option>
+                  <option>البلد</option>
+                </select>
+              </div>
+              <div class="form-group required">
+                <label> تاريخ إصدار الهوية </label>
+                <input
+                  type="date"
+                  class="form-control flatpicker"
+                  placeholder="DD / MM / YYY"
+                />
+              </div>
+              <div class="form-group">
+                <label> رقم جواز السفر </label>
+                <input type="text" class="form-control" />
+              </div>
+              <div class="form-group">
+                <label> بلد إصدار الجواز </label>
+                <select class="form-control">
+                  <option>اختر البلد</option>
+                  <option>البلد</option>
+                  <option>البلد</option>
+                  <option>البلد</option>
+                  <option>البلد</option>
+                  <option>البلد</option>
+                  <option>البلد</option>
+                  <option>البلد</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label> تاريخ اصدار جواز السفر </label>
+                <input
+                  type="date"
+                  class="form-control flatpicker"
+                  placeholder="DD / MM / YYY"
+                />
+              </div>
+            </div>
+            <hr style="background-color: #f9a51b" />
+            <h4 class="block-title">بيانات الاقامه للقادمين من الخارج</h4>
+            <div class="inputs-line-three">
+              <div class="form-group">
+                <label> اسم الفندق </label>
+                <input type="text" class="form-control" />
+              </div>
+              <div class="form-group">
+                <label> رقم الغرفة </label>
+                <input type="text" class="form-control" />
+              </div>
+              <div class="form-group">
+                <label> قادم من </label>
+                <input type="text" class="form-control" />
+              </div>
+              <div class="form-group">
+                <label> تاريخ الوصول </label>
+                <input
+                  type="date"
+                  class="form-control flatpicker"
+                  placeholder="DD / MM / YYY"
+                />
+              </div>
+              <div class="form-group">
+                <label> رقم الطائرة </label>
+                <input type="text" class="form-control" />
+              </div>
+              <div class="form-group">
+                <label> شركة الطيران </label>
+                <input type="text" class="form-control" />
+              </div>
+            </div>
+            <hr style="background-color: #f9a51b" />
+            <h4 class="block-title">ترشيح اصدقاء</h4>
+            <div class="inputs-line-two">
+              <div class="form-group">
+                <label> الاسم </label>
+                <input type="text" class="form-control" />
+              </div>
+              <div class="form-group">
+                <label> الوظيفة </label>
+                <input type="text" class="form-control" />
+              </div>
+              <div class="form-group">
+                <label> الجوال </label>
+                <input type="text" class="form-control" />
+              </div>
+              <div class="form-group">
+                <label> البريد الالكتروني </label>
+                <input type="text" class="form-control" />
+              </div>
+            </div>
+            <button class="addmore">
+              أضف صديق أخر
+              <i class="fas fa-plus-circle"></i>
+            </button>
+          </div>
+
+          <div class="from-block">
+            <h3 class="section-title">طرق الدفع</h3>
+            <div class="radios">
+              <div class="radio">
+                <label>
+                  <input type="radio" name="payment" checked="checked" />
+                  <span class="mark"></span>
+                  الدفع بإستخدام PayPal
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="payment" />
+                  <span class="mark"></span>
+                  نقدي لدي المعهد
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="payment" />
+                  <span class="mark"></span>
+                  تحويل مصرفي مباشر علي الانصاري للصرافه او ويسترن يونون بدبي
+                  (داخل الامارات) باسم المدير : شادي محمد سليمان سليمان شلبي -
+                  تلفون رقم 00971555186060
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="payment" />
+                  <span class="mark"></span>
+                  شيك او تحويل مصرفي علي الحساب التالي (خارج الامارات) اسم
+                  الحساب : معهد المستقبل للجوده - اسم المصرف : بنك دبي - رقم
+                  الحساب : IBAN/AE810240063520040091902
+                </label>
+              </div>
+            </div>
+          </div>
+
+          <div class="conditions">
+            <ul class="list-unstyled">
+              <li>قيمه تحديد المستوي غير قابله للاستيراد</li>
+              <li>
+                يسترد العميل 50% من المصروفات اذا انسحب قبل البدء باسبوعين علي
+                الاقل
+              </li>
+              <li>
+                يسترد العميل 25% من المصروفات اذا انسحب من البرنامج قبل البدء
+                باسبوع
+              </li>
+              <li>
+                لا يمكن استرداد اي مبالغ ماليه خلال الاسبوع الذي يسبق بدايه
+                البرنامج
+              </li>
+            </ul>
+            <ul class="list-unstyled">
+              <li>
+                يرجي ارسال صوره التحويل بالبريد الالكتروني info@MiQ.ae او
+                بالواتس اب 00971555186060
+              </li>
+              <li>
+                يرجي ملاحظه انه يجب دفع الرسوم كامله قبل بدئ الدوره حيث ستهمل اي
+                طلبات للتسجيل غير مصحوبه برسوم الدوره
+              </li>
+            </ul>
+          </div>
+
+          <button class="form-submit">احجز الأن</button>
+
+        </form>
+      </div>
+    </section>
+    <!-- End register form -->
+
+    <!-- Start Footer -->
+    <footer>
+      <div class="container">
+        <div class="footer">
+          <div class="row">
+            <div class="col-lg-5">
+              <div class="footer-nav">
+                <h4 class="footer-title">روابط هامة</h4>
+                <ul class="footer-list list-unstyled">
+                  <li>
+                    <a href="#!">من نحن</a>
+                  </li>
+                  <li>
+                    <a href="#!">خدماتنا</a>
+                  </li>
+                  <li>
+                    <a href="#!">فريقنا</a>
+                  </li>
+                  <li>
+                    <a href="#!">أعمالنا</a>
+                  </li>
+                  <li>
+                    <a href="#!">مؤتمرات</a>
+                  </li>
+                  <li>
+                    <a href="#!">شريك</a>
+                  </li>
+                  <li>
+                    <a href="#!">وسائط</a>
+                  </li>
+                  <li>
+                    <a href="#!">إتصل بنا</a>
+                  </li>
+                  <li>
+                    <a href="#!">الخصوصية وشروط الخدمة</a>
+                  </li>
+                  <li>
+                    <a href="#!">حقوق التأليف والنشر</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="footer-contacts">
+                <h4 class="footer-title">تواصل معنا عبر</h4>
+                <ul class="footer-list list-unstyled">
+                  <li>
+                    <a href="#!">
+                      <i class="fas fa-fax"></i>
+                      ص.ب 90810 دبـــي الامــارات
+                    </a>
+                  </li>
+                  <li>
+                    <a href="tel:00971-555-18-60-60">
+                      <i class="fas fa-phone"></i>
+                      00971-555-18-60-60
+                    </a>
+                  </li>
+                  <li>
+                    <a href="mailto:info@miq.ae">
+                      <i class="fas fa-envelope"></i>
+                      info@miq.ae
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="footer-newsletter">
+                <h4 class="footer-title">نشرة أخبارنا</h4>
+                <span class="footer-subtitle"
+                  >اشترك في نشرة الأخبار ليصلك كل جديد</span
+                >
+                <div class="newsletter">
+                  <i class="fas fa-envelope newsletter-icon"></i>
+                  <input
+                    type="email"
+                    class="newsletter-input"
+                    placeholder="example@gmail.com"
+                  />
+                  <button class="newsletter-btn">
+                    <i class="fas fa-chevron-left"></i>
+                  </button>
+                </div>
+                <div class="socials">
+                  <a href="#!" class="social">
+                    <i class="fab fa-youtube"></i>
+                  </a>
+                  <a href="#!" class="social">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                  <a href="#!" class="social">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                  <a href="#!" class="social">
+                    <i class="fab fa-linkedin-in"></i>
+                  </a>
+                  <a href="#!" class="social">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                  <a href="#!" class="social">
+                    <i class="fab fa-telegram-plane"></i>
+                  </a>
+                  <a href="#!" class="social">
+                    <i class="fab fa-whatsapp"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="copyrights">جميع الحقوق محفوظه معهد المستقبل 2022 ©</div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/select2.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/fancybox.js"></script>
+    <script src="js/flatpicker.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
