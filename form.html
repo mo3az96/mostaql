@@ -237,14 +237,24 @@
         <form class="reg-form">
           <div class="from-block">
             <h3 class="section-title">إستمارة تسجيل</h3>
-            <div class="user-img-flex">
-              <label>
-                <input type="file" accept="image/*" />
-                <div class="user-img">
-                  <span class="fas fa-user"></span>
+            <div class="first-div-grid">
+              <div class="empty-div"></div>
+              <div class="user-img-flex">
+                <label>
+                  <input type="file" accept="image/*" />
+                  <div class="user-img">
+                    <span class="fas fa-user"></span>
+                  </div>
+                  <i class="fas fa-camera"></i>
+                </label>
+              </div>
+              <div class="price-time">
+                <strong class="price">$1200</strong>
+                <div class="time-date">
+                  <span class="time"> 50 ساعة </span>
+                  <strong class="date"> 20 مارس - 22 مارس </strong>
                 </div>
-                <i class="fas fa-camera"></i>
-              </label>
+              </div>
             </div>
             <h4 class="block-title">بيانات التسجيل</h4>
             <div class="form-group required">
@@ -789,12 +799,18 @@
     <!-- End Footer -->
 
     <!-- Modal -->
-    <div class="modal fade" id="responseModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div
+      class="modal fade"
+      id="responseModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
       <div class="modal-dialog modal-sm modal-dialog-centered">
         <div class="modal-content">
           <div class="modal-body">
             <!-- <i class="fas fa-times-circle modal-status" style="color: #f00;"></i> -->
-            <i class="fas fa-check-circle modal-status" style="color: #0f0;"></i>
+            <i class="fas fa-check-circle modal-status" style="color: #0f0"></i>
             <button class="form-submit" data-dismiss="modal">استمرار</button>
           </div>
         </div>
