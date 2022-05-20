@@ -266,6 +266,20 @@ $(document).ready(function () {
   $(".advanced-search-btn").click(function () {
     $(".advanced-input").slideToggle("300");
   });
+  
+  $(".addmore-social").click(function (e) {
+    e.preventDefault();
+    $(".other-social").slideDown("300");
+  });
+  $(".addmore-friend").click(function (e) {
+    e.preventDefault();
+    $(".other-friend").slideDown("300");
+  });
+  $(".addmore-mobile").click(function (e) {
+    e.preventDefault();
+    $(".other-mobile").slideDown("300");
+  });
+
 });
 
 function makeTimer() {

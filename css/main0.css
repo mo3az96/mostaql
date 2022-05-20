@@ -367,7 +367,6 @@ html[dir="ltr"] .newsletter .newsletter-btn {
   font-size: 15px;
   font-weight: 700;
   color: #000;
-  cursor: pointer;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
@@ -458,6 +457,10 @@ html[dir="ltr"] .form-control {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+}
+
+.form-control ~ .form-control {
+  margin-top: 20px;
 }
 
 textarea.form-control {
@@ -4105,23 +4108,5 @@ footer {
   opacity: 0.9;
   background-color: #000;
   display: none;
-}
-
-.other-social, .other-friend, .other-mobile {
-  display: none;
-}
-
-.other-mobile {
-  margin-top: 10px;
-}
-
-.inputs-line-two .select2-container {
-  overflow: hidden;
-}
-
-.inputs-line-two {
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
 }
 /*# sourceMappingURL=main.css.map */
